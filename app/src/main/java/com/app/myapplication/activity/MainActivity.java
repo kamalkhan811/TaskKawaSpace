@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private ProgressBar progressBar;
     UserViewModel userViewModel;
     ImageView ivRightArrow,ivLeftArrow;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
