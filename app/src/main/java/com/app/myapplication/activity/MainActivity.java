@@ -18,7 +18,6 @@ import com.app.myapplication.model.ResultsItem;
 import com.app.myapplication.viewmodel.UserViewModel;
 import java.util.Objects;
 
-
 public class MainActivity extends AppCompatActivity {
     int selectedPosition=0;
     private TopCrouselAdapter topCrouselAdapter;
