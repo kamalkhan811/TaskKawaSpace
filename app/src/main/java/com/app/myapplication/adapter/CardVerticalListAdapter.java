@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CardVerticalListAdapter extends RecyclerView.Adapter<CardVerticalListAdapter.MyViewHolder> {
-    private int selectedIndex=-1;
+    private int selectedIndex=0;
     private ItemListener listener;
     private ArrayList<ResultsItem> mList= new ArrayList<>();
     @NonNull
